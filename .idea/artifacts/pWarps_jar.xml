@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pWarps:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="pWarps.jar">
+      <element id="module-output" name="pWarps" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/Infernalia/Flat/87ce166f19a0552d28690969369ca1dfbe9b2f21/Flat-87ce166f19a0552d28690969369ca1dfbe9b2f21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/PandaTwoo/smartInventory/26e0d7ad05/smartInventory-26e0d7ad05.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

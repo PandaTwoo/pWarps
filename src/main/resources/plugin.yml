@@ -1,0 +1,10 @@
+name: pWarps
+main: br.com.pandatwo.pwarps.pWarps
+version: 1.0.0
+author: PandaTwo#3692
+description: A Warp plugin created by PandaTwo (Brazilian, Discord -> PandaTwo#3692)
+commands:
+  warps:
+    description: Used to create, delete and reload.
+  warp:
+    description: Used to go to warps

@@ -1,0 +1,86 @@
+# Para adicionar novas linhas, quando necessário, utilize o símbolo -> \n <-
+# To add new lines, when necessary, use the symbol -> \n <-
+Messages:
+  Prefix: "&epWarps &7»"
+  Modules:
+    # Quando um modulo dá algum erro e não pode ser utilizado, atrapalhando o funcionamento do plugin.
+    # When a module gives a error and can't be used, blocking plugin's operation.
+    Module_Error: "%prefix% &cHouve um erro no modulo &e%module%&c!"
+    # Quando ao tentar recarregar um modulo, ele não existe.
+    # When trying to reload a module and its don't exist.
+    Module_Not_Exists: "%prefix% &cO modulo &a%module% &cnão existe!"
+    # Quando o modulo está recarregando.
+    # When the module is reloading.
+    Module_Reloading: "%prefix% &aRecarregando o modulo &e%module%&a!"
+    # Quando o module foi recarregado.
+    # When the module was reloaded.
+    Module_Reloaded: "%prefix% &aO modulo &e%module% &afoi recarregado!"
+    # Quando todos os modulos estão sendo recarregados.
+    # When all modules are being reloaded.
+    Modules_Reloading: "%prefix% &aRecarregando todos os modulos..."
+    # Quando todos os modulos foram recarregados.
+    # When all modules was reloaded.
+    Modules_Reloaded: "%prefix% &aTodos os modulos foram recarregados!"
+  Console:
+    # Quando o console não pode usar tal comando.
+    # When console can't use the command.
+    Cant_Use_Command: "%prefix% &cApenas jogadores podem executar esse commando!"
+    # Quando a warp na config não pode ser carregada por algum motivo.
+    # When the warp can't be loaded for some reason.
+    Loading_Warp_Error: "%prefix% &cHouve um erro ao carregar a warp &a%name%&c!"
+  Player:
+    Normal:
+      # Quando o jogador não tem permissão para executar o comando.
+      # When the player hasn't the permission to execute the command.
+      No_Permission: "%prefix% §cVocê não tem permissão para executar esse comando!"
+      # Quando o jogador não tem permissão para ir até a warp.
+      # When the player hasn't permission to warp.
+      No_Permission_Warp: "%prefix% &cVocê não tem permissão para ir para a warp &a%warp%"
+      # Quando o jogador começa o teleporte para a warp.
+      # When the player starts the teleport to warp.
+      Warp_Teleport_Started: "%prefix% &aVocê está indo para &e%warp%&a! Aguarde &e%delay% &asegundos!"
+      # Quando o teleporte é bem sucedido.
+      # When the teleport is sucessful.
+      Warp_Teleport_Sucess: "%prefix% &aVocê se teleportou com sucesso para &e%warp%&a!"
+      # Quando o jogador se mexe e o teleporte é cancelado.
+      # When the player moves and the teleport is cancelled.
+      Warp_Teleport_Cancel: "%prefix% &cVocê se mexeu, teleporte cancelado!"
+      # Quando o jogador digita o comando de lista de warps.
+      # When the player use the warp list command.
+      Warp_List: "%prefix% &a%warps%"
+      # Quando o jogador digita o comando de lista de warps e não há nenhuma.
+      # When the player use the warp list command and there's none.
+      Empty_Warp_List: "%prefix% &cNão há warps carregadas!"
+      # Indice de ajuda do comando /warp
+      # Help of /warp command
+      Help_Command:
+        - "&c» &aÍndice de ajuda das warps!"
+        - ""
+        - "  &c• &e/warp ir (warp) &f- &eTeleporta até a warp desejada"
+        - "  &c• &e/warp list &f- &eLista todas as warps existentes"
+    Admin:
+      # Quando a criação da warp é bem sucedida.
+      # When the warp's creation is sucessful.
+      Warp_Created: "%prefix% &aA warp &e%warp% &afoi criada com sucesso!"
+      # Quando a warp é deletada com sucesso.
+      # When the warp is deleted sucessful.
+      Warp_Deleted: "%prefix% &aA warp &e%warp% &afoi deletada com sucesso!"
+      # Quando alguem tenta criar uma warp com um nome já existente.
+      # When someone tries to create a existing warp.
+      Warp_Already_Exists: "%prefix% &cA warp &a%warp% &cjá existe!"
+      # Indice de ajuda do comando /warps
+      # Help of /warps command
+      Help_Command:
+        - "&c» &aÍndice de ajuda do /warps!"
+        - ""
+        - "  &c• &e/warps criar <nome da warp> &f- &eCria uma nova warp"
+        - "  &c• &e/warps deletar <nome da warp> &f- &eDeleta uma warp"
+        - "  &c• &e/warps reload &f - &eRecarrega todos os modulos do plugin"
+        - "  &c• &e/warps reload <Modulo> &f- &eRecarrega o modulo infomado"
+    Both:
+      # Quando alguem tenta deletar ou ir à uma warp inexistente.
+      # When someone tries to delete or travel to a nonexistent warp.
+      Warp_Dont_Exists: "%prefix% &cA warp &a%warp% &cnão existe!"
+      # Quando ao executar um comando ocorre um erro.
+      # When execute a command has a error.
+      Command_Error: "%prefix% &cHouve um erro ao executar esse comando!"

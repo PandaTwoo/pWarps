@@ -1,0 +1,7 @@
+Config:
+  # Allow warps aliases? (TRUE OR FALSE)
+  # Habilitar abreviatura de warps? (TRUE = SIM | FALSE = NÃO)
+  Allow_Aliases: true
+  # Waiting time until completing the teleport. (in seconds)
+  # Tempo de espera até que o teleporte seja completado (em segundos)
+  Teleport_Delay: 3
